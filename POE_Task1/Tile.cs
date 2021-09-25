@@ -15,12 +15,15 @@ namespace POE_Task1
     {
          protected int X { get; set; }
          protected int Y { get; set; }
+
+        protected string symbol { get; set; }
         
 
         public Tile(int xAxis, int yAxis)
         {
             this.X = xAxis;
             this.Y = yAxis;
+            this.symbol = "";
         }
         
     }
