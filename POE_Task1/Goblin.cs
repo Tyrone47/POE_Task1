@@ -18,10 +18,7 @@ namespace POE_Task1
             {
                 random.Next(Convert.ToInt32(characterVision[0, 3]));
             }
-            else 
-            {
-                return (MovementEnum)random.Next(Convert.ToInt32(characterVision[0, 3]));
-            }
+            
 
             return (MovementEnum)random.Next(Convert.ToInt32(characterVision[0, 3]));
         }
