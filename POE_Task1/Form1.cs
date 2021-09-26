@@ -17,5 +17,9 @@ namespace POE_Task1
             InitializeComponent();
         }
 
+        private void btnUp_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
