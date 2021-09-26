@@ -11,16 +11,33 @@ namespace POE_Task1
 
         Enemy[,] enemyArray;
 
-        private int mapWidth;
-
-        private int mapHeight;
-
         private int minWidth;
 
-        public int GetMinWidth
+        private int minHeight;
+
+        private int maxWidth;
+
+        private int maxHeight;
+
+        public int MinWidth
         {
-            get { return myVar; }
-            set { myVar = value; }
+            get { return minWidth; }
+            set { minWidth = value; }
+        }
+        public int MaxWidth
+        {
+            get { return maxWidth; }
+            set { maxWidth = value; }
+        }
+        public int MinHeight
+        {
+            get { return maxWidth; }
+            set { maxWidth = value; }
+        }
+        public int MaxHeight
+        {
+            get { return maxWidth; }
+            set { maxWidth = value; }
         }
 
 

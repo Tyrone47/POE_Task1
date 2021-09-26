@@ -12,9 +12,9 @@ namespace POE_Task1
             
         }
 
-        public override MovementEnum ReturnMove(MovementEnum move)
+        public override MovementEnum ReturnMove(MovementEnum move = MovementEnum.NOMOVEMENT)
         {
-            
+            throw new NotImplementedException();
         }
 
         public override string ToString()

@@ -67,9 +67,9 @@ namespace POE_Task1
             // 
             // btnUp
             // 
-            this.btnUp.Location = new System.Drawing.Point(761, 486);
+            this.btnUp.Location = new System.Drawing.Point(761, 477);
             this.btnUp.Name = "btnUp";
-            this.btnUp.Size = new System.Drawing.Size(94, 29);
+            this.btnUp.Size = new System.Drawing.Size(94, 38);
             this.btnUp.TabIndex = 3;
             this.btnUp.Text = "^";
             this.btnUp.UseVisualStyleBackColor = true;
