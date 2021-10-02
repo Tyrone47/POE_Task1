@@ -10,7 +10,9 @@ namespace POE_Task1
 
         public Enemy(int x , int y , int damage, int maxHP , string symbol) : base(x, y, symbol )
         {
-           
+            this.damage = damage;
+            this.maxHP = maxHP;
+
         }
         public override string ToString()
         {
